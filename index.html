@@ -1,0 +1,541 @@
+<html>
+<style type="text/css">
+
+
+.wrapper {
+	width: 600px;
+}
+
+.logoheader {
+	border-right: 1px lightgray solid;
+}
+
+.header {
+	border: 1px lightblue solid;
+}
+
+h2 {
+	font-size: 16px;
+	font-family: helvetica, arial, sans-serif;
+	margin-left: 24px;
+	margin-right: 0px;
+	margin-top: 0px;
+	margin-bottom: 10px;
+	text-align: left;
+	display: block;
+	line-height: 100%;
+	letter-spacing: normal;
+}
+
+.contentText {
+	font-size: 12px;
+	font-family: helvetica, arial, sans-serif;
+	line-height: 1.4;
+	margin-left: 24px;
+	margin-right: 0px;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	text-align: left;
+}
+
+ul {
+	margin-bottom: 0px;
+	padding-bottom: 0px;
+}
+
+li {
+	font-size: 12px;
+	font-family: helvetica, arial, sans-serif;
+	line-height: 1.7;
+	text-align: left;
+	letter-spacing: normal;
+
+}
+
+
+.morelinksconsumer {
+	text-decoration: none;
+	color: #ED1D5B;
+	font-weight: bold;
+}
+
+.morelinksmarket {
+	text-decoration: none;
+	color: #526362;
+	font-weight: bold;
+}
+
+.morelinksnational {
+	text-decoration: none;
+	color: #00aeef;
+	font-weight: bold;
+}
+
+.morelinkslocal {
+	text-decoration: none;
+	color: #f15a22;
+	font-weight: bold;
+}
+
+#footernav a {
+	text-decoration: none;
+	font-size: 10px;
+	font-family: helvetica, arial, sans-serif;
+	color: #171717;
+	font-weight: bold;
+}
+
+#footerright a {
+	text-decoration: none;
+	color: #333333;
+	font-family: helvetica, arial, sans-serif;
+	font-size: 10px;
+	font-weight: bold;
+	vertical-align: top;
+}
+
+#canspam a {
+	text-decoration: underline;
+	font-size: 10px;
+	font-family: helvetica, arial, sans-serif;
+	color: #171717;
+	font-weight: normal;
+}
+
+#canspam  {
+	font-size: 10px;
+	font-family: helvetica, arial, sans-serif;
+	color: #171717;
+	font-weight: normal;
+}
+
+
+@media only screen and (max-width: 600px){
+	body,table,td,p,a,li,blockquote{
+		-webkit-text-size-adjust:none !important;
+	}
+}
+
+@media only screen and (max-width: 600px){
+	body{
+		width:100% !important;
+		min-width:100% !important;
+	}
+}
+
+@media only screen and (max-width: 600px){
+	ul{
+		margin-left: -43px !important;
+	}
+}
+
+@media only screen and (max-width: 600px){
+	li{
+		font-size: 14px !important;
+		line-height: 1.5 !important;
+	}
+}
+
+@media only screen and (max-width: 600px){
+	td[id=templateBody],td[id=templateFooter]{
+		padding-right:10px !important;
+		padding-left:10px !important;
+	}
+}
+
+@media only screen and (max-width: 600px){
+	table[class=wrapper]{
+		max-width:600px !important;
+		width:300px !important;
+	}
+}
+
+@media only screen and (max-width: 600px){
+	td[id=preheaderlogos]{
+		display:none;
+	}
+}
+
+@media only screen and (max-width: 600px){
+	td[id=socialmedialogos],img[class=gaps]{
+		display:none;
+	}
+}
+
+@media only screen and (max-width: 600px){
+	td[class=spacer]{
+		display:none;
+	}
+}
+
+@media only screen and (max-width: 600px){
+	table[id=preheaderlogos]{
+		display:none;
+	}
+}
+
+@media only screen and (max-width: 600px){
+	h2{
+		font-size:24px !important;
+		line-height:100% !important;
+		margin-left: 0px !important;
+	}
+}
+
+
+@media only screen and (max-width: 600px){
+	img[id=articleImage]{
+		height:auto !important;
+		max-width:300px !important;
+		width:300px !important;
+	}
+}
+
+@media only screen and (max-width: 600px){
+	img[id=logo]{
+		height:auto !important;
+		max-width:300px !important;
+		width:50% !important;
+		margin-left: 105px !important;
+	}
+}
+
+@media only screen and (max-width: 600px){
+	img[class=bodyImage]{
+		height:auto !important;
+		max-width:300px !important;
+		width:300px !important;
+	}
+}
+
+@media only screen and (max-width: 600px){
+	table[class=contentsection]{
+		max-width:300px !important;
+		width:300px !important;
+
+	}
+}
+
+@media only screen and (max-width: 600px){
+	.contentText{
+		font-size:14px !important;
+		line-height:1.5 !important;
+		margin-left: 0px !important;
+	}
+}
+
+@media only screen and (max-width: 600px){
+	.footerContent{
+		font-size:13px !important;
+		line-height:1.5 !important;
+	}
+}
+
+@media only screen and (max-width: 600px){
+	table[id=footer]{
+		display: none !important;
+	}
+}
+
+@media only screen and (max-width: 600px){
+	td[class=footerContent] a{
+		display:block !important;
+	}
+}
+
+
+
+</style>
+
+<body>
+<table width="100%" cellpadding="0" cellspacing="0">
+	<tr>
+		<td>
+			<!--begin wrapper table -->
+			<table class="wrapper" width="600px" cellpadding="0" cellspacing="0" align="center">
+				<!--preheader logos-->
+				<tr>
+					<td class="spacer" height="60" align="center">
+						<table width="100%" border="0" cellspacing="0" cellpadding="0">
+							<tr>
+								<td class="logoheader"><a href="http://elclasificado.com" title="El Clasificado"><img src="ec.jpg" /></a>
+								</td>
+								<td class="logoheader"><a href="http://elpuntosemanal.com"><img src="elpunto.jpg" /></a>
+								</td>
+								<td class="logoheader"><a href="http://quinceanera.com"><img src="xv.jpg" /></a>
+								</td>
+								<td class="logoheader"><a href="http://susociodenegocios.com"><img src="ssdn.jpg" /></a>
+								</td>
+								<td class="logoheader"><a href="http://pacoslist.com"><img src="pacoslist.jpg" /></a>
+								</td>
+								<td class="logoheader"><a href="http://alborde.com"><img src="ab.jpg" /></a>
+								</td>
+								<td class="logoheader"><a href="http://miautoplaza.com"><img src="miautoplaza.jpg" /></a>
+								</td>
+								<td><a href="http://saludyninos.com"><img src="saludyninos.jpg" /></a>
+								</td>
+							</tr>
+						</table>
+					</td>
+				</tr>
+				<!--end preheader logos-->
+				<!--start header-->
+				<tr>
+					<td class="spacer">
+						<table height="10" width="100%">
+							<tr>
+								<td></td>
+							</tr>
+						</table>
+					</td>
+				</tr>
+				<tr>
+					<td>
+						<table id="headerlogos" border="0" cellspacing="0" cellpadding="0" width="100%">
+							<tr>
+								<td class="spacer" width="226">
+									<p>&nbsp;</p>
+								</td>
+								<td width="147">
+									<p><img id="logo" src="logo.jpg" ></p>
+								</td>
+								<td width="103">
+									<p>&nbsp;</p>
+								</td>
+								<td class="spacer" width="124">
+									<!--start social media-->
+									<table border="0" cellspacing="0" cellpadding="0" width="100%">
+										<tr>
+											<td>
+												<p><a href="https://www.facebook.com/pages/EC-Hispanic-Media/252345358221026?ref=hl" title="Facebook"><img src="facebook.png"></a></p>
+											</td>
+											<td width="6">
+												<p>&nbsp;</p>
+											</td>
+											<td>
+												<p><a href="http://twitter.com/echispanicmedia" title="Twitter"><img src="twitter.png"></a></p>
+											</td>
+											<td width="6">
+												<p>&nbsp;</p>
+											</td>
+											<td>
+												<p><a href="https://www.facebook.com/pages/EC-Hispanic-Media/252345358221026?ref=hl" title="LinkedIn"><img src="linkedin.png"></a></p>
+											</td>
+											<td width="6">
+												<p>&nbsp;</p>
+											</td>
+											<td>
+												<p><a href="https://www.facebook.com/pages/EC-Hispanic-Media/252345358221026?ref=hl" title="Google Plus"><img src="google_plus.png"></a></p>
+											</td>
+											<td width="6">
+												<p>&nbsp;</p>
+											</td>
+										</tr>
+										<tr height="94">
+											<td>
+												<p>&nbsp;</p>
+											</td>	
+									</table>
+									<!--end social media-->
+								</td>
+							</tr>
+						</table>
+					</td>
+				</tr>
+				<!--end header-->
+				<!--start featured article-->
+				<tr>
+					<td>
+						<table class="contentsection" border="0" cellspacing="0" cellpadding="0" width="100%">
+							<tr>
+								<td mc:edit="main">
+									<p><img id="articleImage" src="front_image.jpg" width="600" height="318" mc:edit="postcard" style="max-width:600px;" /></p>
+									<h2>Quarter 4</h2>
+									<p class="contentText">Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est</p>
+									<p>&nbsp;</p>
+								</td>
+							</tr>
+						</table>
+					</td>
+				</tr>
+				<!--end featured article-->
+				<!--begin consumer behavior section-->
+				<tr>
+					<td>
+						<table class="contentsection" width="100%" border="0" cellspacing="0" cellpadding="0">
+							<tr>
+								<td mc:edit="main">
+									<p><img id="articleImage" src="consumer_behavior.jpg" width="600" mc:edit="postcard" style="max-width:600px;"/></p>
+									<h2>Consumer Behavior</h2>
+									<ul>
+										<li>This week we are talking about the new reports that bring hispanic news to the mainstream audience...<a href="#" class="morelinksconsumer" title="Read More">&rang;</a></span></li>
+										<li>This week we are talking about the new reports that bring hispanic news to the mainstream audience...<a href="#" class="morelinksconsumer" title="Read More">&rang;</a></span></li>
+										<li>This week we are talking about the new reports that bring hispanic news to the mainstream audience...<a href="#" class="morelinksconsumer" title="Read More">&rang;</a></span></li>
+									<p>&nbsp;</p>
+								</td>
+							</tr>
+						</table>
+					</td>	
+				</tr>
+				<!--end consumer behavior section-->
+				<!--begin market news section-->
+				<tr>
+					<td>
+						<table class="contentsection" width="100%" border="0" cellspacing="0" cellpadding="0">
+							<tr>
+								<td mc:edit="main">
+									<p><img id="articleImage" src="market_news.jpg" width="600" mc:edit="postcard" style="max-width:600px;"/></p>
+									<h2>Market News</h2>
+									<ul>
+										<li>This week we are talking about the new reports that bring hispanic news to the mainstream audience...<a href="#" class="morelinksmarket" title="Read More">&rang;</a></span></li>
+										<li>This week we are talking about the new reports that bring hispanic news to the mainstream audience...<a href="#" class="morelinksmarket" title="Read More">&rang;</a></span></li>
+										<li>This week we are talking about the new reports that bring hispanic news to the mainstream audience...<a href="#" class="morelinksmarket" title="Read More">&rang;</a></span></li>
+									<p>&nbsp;</p>
+								</td>
+							</tr>
+						</table>
+					</td>	
+				</tr>
+				<!--end market news section-->
+				<!--begin image section-->
+				<tr>
+					<td class="spacer">
+						<table width="100%" border="0" cellspacing="0" cellpadding="0">
+							<tr>
+								<td>
+									<p><img src="border.jpg" class="gaps"></p>
+								</td>
+							</tr>
+							<tr>
+								<td>
+									<p><img src="10px.jpg" class="gaps"></p>
+								</td>	
+							</tr>
+						</table>
+					</td>	
+				</tr>
+				<tr>
+					<td class="spacer" align="center" mc:edit="main">
+						<table width="100%" height="160" border="0" cellspacing="0" cellpadding="0">
+							<tr>
+								<td width="199" style="border-right: 1px lightgray solid;">
+									<p>Resource</p>
+								</td>
+								<td width="199" style="border-right: 1px lightgray solid;">
+									<p>Promo</p>
+								</td>
+								<td width="199">
+									<p>Infographic</p>
+								</td>	
+							</tr>
+						</table>
+					</td>
+				</tr>
+				<tr>
+					<td>
+						<p><img src="10px.jpg" class="gaps"></p>
+					</td>
+				</tr>	
+				<!--end image section-->
+				<!--begin national news section-->
+				<tr>
+					<td>
+						<table class="contentsection" width="100%" border="0" cellspacing="0" cellpadding="0">
+							<tr>
+								<td mc:edit="main">
+									<p><img id="articleImage" src="national_news.jpg" width="600" mc:edit="postcard" style="max-width:600px;"/></p>
+									<h2>National News</h2>
+									<ul>
+										<li>This week we are talking about the new reports that bring hispanic news to the mainstream audience...<a href="#" class="morelinksnational" title="Read More">&rang;</a></span></li>
+										<li>This week we are talking about the new reports that bring hispanic news to the mainstream audience...<a href="#" class="morelinksnational" title="Read More">&rang;</a></span></li>
+										<li>This week we are talking about the new reports that bring hispanic news to the mainstream audience...<a href="#" class="morelinksnational" title="Read More">&rang;</a></span></li>
+									<p>&nbsp;</p>
+								</td>
+							</tr>
+						</table>
+					</td>	
+				</tr>
+				<!--end national news section-->
+				<!--begin local news section-->
+				<tr>
+					<td>
+						<table class="contentsection" width="100%" border="0" cellspacing="0" cellpadding="0">
+							<tr>
+								<td mc:edit="main">
+									<p><img id="articleImage" src="local_news.jpg" width="600" mc:edit="postcard" style="max-width:600px;"/></p>
+									<h2>Local News</h2>
+									<ul>
+										<li>This week we are talking about the new reports that bring hispanic news to the mainstream audience...<a href="#" class="morelinkslocal" title="Read More">&rang;</a></span></li>
+										<li>This week we are talking about the new reports that bring hispanic news to the mainstream audience...<a href="#" class="morelinkslocal" title="Read More">&rang;</a></span></li>
+										<li>This week we are talking about the new reports that bring hispanic news to the mainstream audience...<a href="#" class="morelinkslocal" title="Read More">&rang;</a></span></li>
+									<p>&nbsp;</p>
+								</td>
+							</tr>
+						</table>
+					</td>	
+				</tr>
+				<!--end local news section-->
+				<!--begin footer-->
+				<tr>
+					<td class="spacer">
+						<table width="100%" cellspacing="0" cellpadding="0" style="border-top: 1px dotted gray;">
+							<tr>
+								<td>
+									<p>&nbsp;</p>
+								</td>
+							</tr>	
+						</table>
+					</td>	
+				</tr>
+				<tr>
+					<td>
+						<table id="footer" width="100%" border="0" cellspacing="0" cellpadding="0">
+							<tr>
+								<td align="left">
+									<p id="footernav"><a href="http://hispanicmarketing.echispanicmedia.com/about-us.html">OUR COMPANY</a> / <a href="http://hispanicmarketing.echispanicmedia.com/our-brands.html">OUR BRANDS / <a href="http://hispanicmarketing.echispanicmedia.com/downloads.html">MEDIA KITS / <a href="http://hispanicmarketing.echispanicmedia.com/contact-us.html">CONTACT US</p>
+								</td>
+								<td align="right">
+									<p id="footerright"><a href="http://echispanicmedia.com">echispanicmedia.com</a></p>
+								</td>
+							</tr>
+							<tr>
+								<td>
+									<p>&nbsp;</p>
+								</td>
+							</tr>
+						</table>
+					</td>
+				</tr>
+				<tr>
+					<td class="spacer">
+						<table width="100%" cellspacing="0" cellpadding="0" style="border-top: 1px dotted gray;">
+							<tr>
+								<td>
+									<p>&nbsp;</p>
+								</td>
+							</tr>	
+						</table>
+					</td>	
+				</tr>
+				<tr>
+					<tr>
+					<td>
+						<table id="canspam" width="100%" cellspacing="0" cellpadding="0" >
+							<tr>
+								<td>
+									<p><a href="*|UNSUB|*">Click here</a> to unsubsribe.  Don't worry, we understand.</p>
+									<p>EC Hispanic Media Copyright 2012.  All rights reserved.</p>
+									<p>We are located at *|LIST:ADDRESSLINE|*.</p> 
+								</td>
+							</tr>	
+						</table>
+					</td>	
+				</tr>
+				<tr>
+			</table>
+		</td>
+	</tr>
+</table>
+</body>
+</html>
+
